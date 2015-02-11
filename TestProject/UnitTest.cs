@@ -27,6 +27,11 @@
         }
 
         [TestMethod]
+        public void Reisinger()
+        {
+            this.Teste(typeof(Dnp012015.Reisinger.Solution));
+        }
+        [TestMethod]
         public void Hlawatsch()
         {
             this.Teste(typeof(Dnp012015.Hlawatsch.Solution));
